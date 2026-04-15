@@ -1,0 +1,121 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Virtualenvs
+.venv/
+venv/
+env/
+ENV/
+pyvenv.cfg
+
+# Package managers
+.uv/
+uv.lock
+pip-log.txt
+.pdm.toml
+.pdm-python
+.pdm-build/
+poetry.lock
+Pipfile.lock
+
+# Tooling caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.tox/
+.nox/
+.cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+
+# Playwright
+playwright-report/
+test-results/
+playwright/.cache/
+.playwright/
+
+# Node
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.local
+secrets.*
+*.pem
+*.key
+
+# Editors
+.vscode/
+.idea/
+*.iml
+.cursor/
+.zed/
+.history/
+.fleet/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.fseventsd
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Logs & temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Transcript exports from local testing
+* - 逐字稿.txt
+* - 逐字稿.md
+* - 逐字稿.json

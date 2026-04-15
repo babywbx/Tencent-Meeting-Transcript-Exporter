@@ -1,0 +1,6 @@
+# GitHub Linguist language stats overrides.
+# The Python CLI is one of three equivalent entry points but happens to be
+# the largest file on disk. Exclude it from language-badge detection so the
+# repo is labelled JavaScript (the userscript + console snippet), which
+# matches how most users interact with the project.
+tencent_meeting_transcript.py linguist-detectable=false
